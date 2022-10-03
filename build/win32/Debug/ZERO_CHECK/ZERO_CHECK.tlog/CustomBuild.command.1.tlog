@@ -1,0 +1,10 @@
+^C:\USERS\TTODO\MUNI\PV112\PROJECT2\BUILD\CMAKEFILES\D323C1E77B868505279EB1D2C60A244D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ttodo/MUNI/PV112/Project2 -BC:/Users/ttodo/MUNI/PV112/Project2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ttodo/MUNI/PV112/Project2/build/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

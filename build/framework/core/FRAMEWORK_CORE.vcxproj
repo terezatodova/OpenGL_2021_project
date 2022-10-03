@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4DF228F-5F25-3F37-8B47-8380FC35FCC1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>win32</Platform>
+    <ProjectName>FRAMEWORK_CORE</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">FRAMEWORK_CORE.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">FRAMEWORK_CORE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">FRAMEWORK_CORE.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">FRAMEWORK_CORE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">FRAMEWORK_CORE.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">FRAMEWORK_CORE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">FRAMEWORK_CORE.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">FRAMEWORK_CORE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GLFW_DLL;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLFW_DLL;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;GTEST_LINKED_AS_SHARED_LIBRARY=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\scene;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry;C:\Users\ttodo\MUNI\PV112\Project2\framework\core\geometries;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/ttodo/MUNI/PV112/Project2/framework/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ttodo/MUNI/PV112/Project2 -BC:/Users/ttodo/MUNI/PV112/Project2/build --check-stamp-file C:/Users/ttodo/MUNI/PV112/Project2/build/framework/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFindDependencyMacro.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestConfig.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladConfig.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glm\glm-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-config-version.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11Config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11ConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/ttodo/MUNI/PV112/Project2/framework/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ttodo/MUNI/PV112/Project2 -BC:/Users/ttodo/MUNI/PV112/Project2/build --check-stamp-file C:/Users/ttodo/MUNI/PV112/Project2/build/framework/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFindDependencyMacro.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestConfig.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladConfig.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glm\glm-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-config-version.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11Config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11ConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/ttodo/MUNI/PV112/Project2/framework/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ttodo/MUNI/PV112/Project2 -BC:/Users/ttodo/MUNI/PV112/Project2/build --check-stamp-file C:/Users/ttodo/MUNI/PV112/Project2/build/framework/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFindDependencyMacro.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestConfig.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladConfig.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glm\glm-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-config-version.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11Config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11ConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/ttodo/MUNI/PV112/Project2/framework/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ttodo/MUNI/PV112/Project2 -BC:/Users/ttodo/MUNI/PV112/Project2/build --check-stamp-file C:/Users/ttodo/MUNI/PV112/Project2/build/framework/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFindDependencyMacro.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestConfig.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\GTest\GTestTargets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladConfig.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glad\gladTargets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glfw3\glfw3Targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\glm\glm-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\imgui\imgui-targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-config-version.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets-debug.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets-release.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\tinyobjloader\tinyobjloader-targets.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11Config.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11ConfigVersion.cmake;C:\Users\ttodo\MUNI\PV112\Project2\build\vcpkg_installed\x86-windows\share\toml11\toml11Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\iapplication.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\manager.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl\shader.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl\program.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\camera.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\geometry_base.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\geometry.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\teapot.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\capsule.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\cylinder.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\torus.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\cube.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\utils\configuration.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\utils.hpp" />
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\color.hpp" />
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\iapplication.cpp" />
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\manager.cpp" />
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\opengl\shader.cpp" />
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\opengl\program.cpp" />
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\camera.cpp" />
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\geometry\geometry.cpp" />
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\color.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ttodo\MUNI\PV112\Project2\build\ZERO_CHECK.vcxproj">
+      <Project>{95078164-DEC3-3550-A622-78C9E1E87BC7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

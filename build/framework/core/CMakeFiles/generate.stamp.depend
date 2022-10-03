@@ -1,0 +1,31 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeFindDependencyMacro.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/GTest/GTestConfig.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/GTest/GTestConfigVersion.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/GTest/GTestTargets-debug.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/GTest/GTestTargets-release.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/GTest/GTestTargets.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glad/gladConfig.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glad/gladConfigVersion.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glad/gladTargets-debug.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glad/gladTargets-release.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glad/gladTargets.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glfw3/glfw3Config.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glfw3/glfw3ConfigVersion.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glfw3/glfw3Targets-debug.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glfw3/glfw3Targets-release.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glfw3/glfw3Targets.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/glm/glm-config.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/imgui/imgui-config.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/imgui/imgui-targets-debug.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/imgui/imgui-targets-release.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/imgui/imgui-targets.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/tinyobjloader/tinyobjloader-config-version.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/tinyobjloader/tinyobjloader-config.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/tinyobjloader/tinyobjloader-targets-debug.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/tinyobjloader/tinyobjloader-targets-release.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/tinyobjloader/tinyobjloader-targets.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/toml11/toml11Config.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/toml11/toml11ConfigVersion.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/build/vcpkg_installed/x86-windows/share/toml11/toml11Targets.cmake
+C:/Users/ttodo/MUNI/PV112/Project2/framework/core/CMakeLists.txt

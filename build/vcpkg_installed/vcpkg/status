@@ -1,0 +1,114 @@
+Package: egl-registry
+Version: 2020-02-20
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 919d180e296e549ea3d01ab28128991d6fba8eb1
+Description: the EGL API and Extension Registry
+Type: Port
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2020-03-25
+Depends: egl-registry
+Architecture: x86-windows
+Multi-Arch: same
+Abi: afe17b622a9e7bda81278c50d800e7a70b4650f7
+Description: the API and Extension registries for the OpenGL family APIs
+Type: Port
+Status: install ok installed
+
+Package: glad
+Version: 0.1.33-1
+Depends: egl-registry, opengl-registry
+Architecture: x86-windows
+Multi-Arch: same
+Abi: ea8238c31f836bb33c51f36279e1b33717101115
+Description: Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+Type: Port
+Status: install ok installed
+
+Package: glfw3
+Version: 3.3.2
+Port-Version: 1
+Architecture: x86-windows
+Multi-Arch: same
+Abi: ea6631a91bf381342f66f9ab1c31d1749a78b02b
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Type: Port
+Status: install ok installed
+
+Package: glm
+Version: 0.9.9.8
+Architecture: x86-windows
+Multi-Arch: same
+Abi: dab26acf4352f3e5d6898cfe8855743f6e6dbaa8
+Description: OpenGL Mathematics (GLM)
+Type: Port
+Status: install ok installed
+
+Package: gtest
+Version: 1.10.0
+Port-Version: 4
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 61f6c7c6605ead5a1513cfdb015d8964e7d5255f
+Description: GoogleTest and GoogleMock testing frameworks.
+Type: Port
+Status: install ok installed
+
+Package: imgui
+Version: 1.81
+Port-Version: 1
+Architecture: x86-windows
+Multi-Arch: same
+Abi: e112b2316bdfb827053adf92ad9b8e18d87b6082
+Description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.
+Type: Port
+Status: install ok installed
+
+Package: imgui
+Feature: glfw-binding
+Depends: glfw3
+Architecture: x86-windows
+Multi-Arch: same
+Description: Make available GLFW binding
+Type: Port
+Status: install ok installed
+
+Package: imgui
+Feature: opengl3-glad-binding
+Depends: glad
+Architecture: x86-windows
+Multi-Arch: same
+Description: Make available OpenGL3/ES/ES2 (modern) binding with glad
+Type: Port
+Status: install ok installed
+
+Package: stb
+Version: 2020-09-14
+Architecture: x86-windows
+Multi-Arch: same
+Abi: f004d15602eb7819663d52132d2e9d84d4994dd6
+Description: public domain header-only libraries
+Type: Port
+Status: install ok installed
+
+Package: tinyobjloader
+Version: 2.0.0-rc2
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 07595719abb627c49a66a7a6fdc6e133b3840347
+Description: Tiny but powerful single file wavefront obj loader
+Type: Port
+Status: install ok installed
+
+Package: toml11
+Version: 3.5.0
+Port-Version: 1
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 16015c2302ab8b63aeabff9a31b2a6f5dee04d7f
+Description: A C++11 header-only toml parser/encoder depending only on C++ standard library.
+Type: Port
+Status: install ok installed
+

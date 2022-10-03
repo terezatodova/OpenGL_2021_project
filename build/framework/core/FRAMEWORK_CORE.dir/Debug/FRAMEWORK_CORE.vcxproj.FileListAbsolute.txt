@@ -1,0 +1,2 @@
+C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\Debug\FRAMEWORK_CORE.pdb
+C:\Users\ttodo\MUNI\PV112\Project2\build\framework\core\FRAMEWORK_CORE.dir\Debug\FRAMEWORK_CORE.pdb

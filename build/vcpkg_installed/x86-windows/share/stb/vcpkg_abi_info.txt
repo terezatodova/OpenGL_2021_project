@@ -1,0 +1,13 @@
+CONTROL ca0beaf0febd4743357be040ed0ac2195ebd62e5
+FindStb.cmake 34b418520b21f42b693a5c2a80b3525c6117202a
+cmake 3.20.0-rc2
+features core
+portfile.cmake abb6d66495be48fd4023307d3a14c6e6ee5e95af
+ports.cmake 05c2a8d067bb0eb4cda72419a8aafa9c9fd22ea1
+post_build_checks 2
+powershell 7.1.0
+triplet x86-windows
+triplet_abi 4c64db251cbf53c76a606595b52416ec991ab5bb-a1c0eabb0c5177b6a8fb97a58ae398880c47b352-6f7bc043d032dd587d3c200372493c178b5def28
+vcpkg-cmake-wrapper.cmake bd9db88ff327990dc2581697f9c0910cb36b03fc
+vcpkg_from_git 99e83c6ffac2dd07afaf73d795988ca5dec2dc8b
+vcpkg_from_github a9dd1453b8873c9702731c6c36e79fb0ab6ae486

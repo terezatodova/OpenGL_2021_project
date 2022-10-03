@@ -1,0 +1,10 @@
+^C:\USERS\TTODO\MUNI\PV112\PROJECT2\FRAMEWORK\CORE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ttodo/MUNI/PV112/Project2 -BC:/Users/ttodo/MUNI/PV112/Project2/build --check-stamp-file C:/Users/ttodo/MUNI/PV112/Project2/build/framework/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

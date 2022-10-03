@@ -1,0 +1,8 @@
+C:/Users/ttodo/MUNI/PV112/Project2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ttodo/MUNI/PV112/Project2/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ttodo/MUNI/PV112/Project2/build/framework/core/CMakeFiles/FRAMEWORK_CORE.dir
+C:/Users/ttodo/MUNI/PV112/Project2/build/framework/core/CMakeFiles/ALL_BUILD.dir
+C:/Users/ttodo/MUNI/PV112/Project2/build/framework/pv112/CMakeFiles/FRAMEWORK_PV112.dir
+C:/Users/ttodo/MUNI/PV112/Project2/build/framework/pv112/CMakeFiles/ALL_BUILD.dir
+C:/Users/ttodo/MUNI/PV112/Project2/build/pv112_seminars/template/CMakeFiles/pv112_template.dir
+C:/Users/ttodo/MUNI/PV112/Project2/build/pv112_seminars/template/CMakeFiles/ALL_BUILD.dir

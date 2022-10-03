@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "version-string": "0.0.1",
+  "dependencies": [
+    "glfw3",
+    "glad",
+    "glm",
+    {
+      "name": "imgui",
+      "features": ["opengl3-glad-binding", "glfw-binding"]
+    },
+    "toml11",
+    "tinyobjloader",
+    "gtest",
+    "stb"
+  ]
+}

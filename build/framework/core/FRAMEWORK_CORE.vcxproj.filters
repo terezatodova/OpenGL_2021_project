@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\iapplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\opengl\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\opengl\program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\geometry\geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\src\color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\iapplication.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl\shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\opengl\program.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\geometry_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\geometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\teapot.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\capsule.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\cylinder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\torus.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\geometry\cube.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\utils\configuration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\include\color.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ttodo\MUNI\PV112\Project2\framework\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CDD3746B-741A-3C6D-9B15-00E0B53442E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AB2D7DBE-8F59-3292-9EE8-F5C4599250F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
